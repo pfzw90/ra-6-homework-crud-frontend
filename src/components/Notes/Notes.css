@@ -1,0 +1,92 @@
+.Notes {
+    background-color: #d8cfff7a;
+    height:100%;
+    width:100%;
+    overflow: scroll;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Update {
+    width:800px;
+    padding:10px 20px 15px 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+
+    color: #fff;
+    background-color: #564b86;
+
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+    .LastUpdate {
+        margin-right:20px;
+    }
+
+    .UpdateButton {
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .UpdateButton:hover {
+        color:rgb(216, 184, 231);
+    }
+
+.NotesForm {
+    width:800px;
+    padding:20px;
+    margin:20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #bab2df;
+
+    border-radius: 10px;
+}
+    .NotesForm-text {
+        width:700px;
+        height:200px;
+        padding: 15px;
+        resize: none;
+
+        font-size: 16px;
+
+        border: 0;
+        border-radius: 10px;
+    }
+
+    .NotesForm-button {
+        width: 40px;
+        height:40px;
+
+        border:0;
+        background-color: #564b86;
+        color: #fff;
+        border-radius: 10px;
+
+        font-size: 30px;
+
+        cursor: pointer;
+
+    }
+
+#NotesList {
+    width:800px;
+    padding:20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
