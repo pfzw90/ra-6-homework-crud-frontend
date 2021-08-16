@@ -1,7 +1,7 @@
 import './Loading.css'
 
 export default function Loading(props) {
-    if (props.isLoading) {
+    if (props.loading) {
         return (
         
         <div className="Loading">
